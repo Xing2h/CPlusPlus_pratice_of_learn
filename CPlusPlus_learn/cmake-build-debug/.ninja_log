@@ -1,0 +1,12 @@
+# ninja log v5
+1	411	6703517676754553	CMakeFiles/CPlusPlus_learn.dir/main.cpp.obj	5ebc7d88a5455b01
+18	453	6703521021259837	CMakeFiles/CPlusPlus_learn.dir/t1.cpp.obj	a3a4ebfdb302aece
+0	430	6703525567392587	CMakeFiles/t3.dir/t3.cpp.obj	e6c55c7dde33c414
+4	440	6703521021103436	CMakeFiles/CPlusPlus_learn.dir/t2.cpp.obj	e10c73e3fc2c7ba9
+5	474	6703524882203119	CMakeFiles/t1.dir/t1.cpp.obj	9ae6c4306e038ff2
+475	706	6703524884453151	t1.exe	9ce87972290edb4
+415	644	6703524931506244	t2.exe	d43d4d4ea022c9cf
+1	414	6703524929176099	CMakeFiles/t2.dir/t2.cpp.obj	a1fbb79bed6621d5
+431	661	6703525569648960	t3.exe	20a72b411615ab6f
+4	474	6703537213112105	CMakeFiles/char.dir/c++_base/char.cpp.obj	d72477ea99d7e5e
+476	716	6703537215462124	char.exe	dfd6065e20ca6ce0
