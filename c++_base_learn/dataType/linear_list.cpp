@@ -21,7 +21,7 @@ struct List {
 
 /**
  * 向线性表指定位置插入指定元素
- * @param L 线性表
+ * @param L Linear_list
  * @param i 要插入元素的位置
  * @param e 要插入的元素
  * return 如果插入成功返回true,否则返回false
@@ -53,7 +53,7 @@ int getElem(List &L,int i){
 }
 /**
  * 查找指定元素的位置
- * @param L 线性表
+ * @param L Linear_list
  * @param e 要查找的元素
  * @return  返回该元素的位置,如果没有找到返回-1
  */
