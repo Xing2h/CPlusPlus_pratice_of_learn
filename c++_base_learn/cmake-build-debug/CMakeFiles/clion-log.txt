@@ -1,8 +1,17 @@
 "D:\IDE\Clion\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/IDE/Clion/CLion 2021.3.4/bin/ninja/win/ninja.exe" -DCMAKE_C_COMPILER=D:/IDE/Msys2_64/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/IDE/Msys2_64/mingw64/bin/g++.exe -G Ninja -S D:\Code\C++\CLion\c++_base_learn -B D:\Code\C++\CLion\c++_base_learn\cmake-build-debug
+    -- src/class_circle.cpp will be compiled to bin/class_circle
+    -- src/student_class.cpp will be compiled to bin/student_class
+    -- src/default_param.cpp will be compiled to bin/default_param
+    -- src/func_overload.cpp will be compiled to bin/func_overload
+    -- src/placeholder_in_func.cpp will be compiled to bin/placeholder_in_func
+    -- src/quote_func_overload.cpp will be compiled to bin/quote_func_overload
     -- src/func_memory.cpp will be compiled to bin/func_memory
     -- src/global_memory.cpp will be compiled to bin/global_memory
     -- src/new.cpp will be compiled to bin/new
+    -- src/const_quote.cpp will be compiled to bin/const_quote
     -- src/quote.cpp will be compiled to bin/quote
+    -- src/quote_in_func.cpp will be compiled to bin/quote_in_func
+    -- src/return_quote.cpp will be compiled to bin/return_quote
     -- src/3.cpp will be compiled to bin/3
     -- src/array.cpp will be compiled to bin/array
     -- src/array_two.cpp will be compiled to bin/array_two
