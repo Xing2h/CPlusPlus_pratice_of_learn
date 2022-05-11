@@ -2,6 +2,7 @@
     -- src/circle.cpp will be compiled to bin/circle
     -- src/class_circle.cpp will be compiled to bin/class_circle
     -- src/class_constructor.cpp will be compiled to bin/class_constructor
+    -- src/class_copy_constructor.cpp will be compiled to bin/class_copy_constructor
     -- src/class_demo_circle_and_point.cpp will be compiled to bin/class_demo_circle_and_point
     -- src/class_demo_cube.cpp will be compiled to bin/class_demo_cube
     -- src/class_private.cpp will be compiled to bin/class_private

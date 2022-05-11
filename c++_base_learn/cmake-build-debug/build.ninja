@@ -140,6 +140,39 @@ build class_constructor.exe: CXX_EXECUTABLE_LINKER__class_constructor_Debug CMak
   TARGET_PDB = class_constructor.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target class_copy_constructor
+
+
+#############################################
+# Order-only phony target for class_copy_constructor
+
+build cmake_object_order_depends_target_class_copy_constructor: phony || CMakeFiles/class_copy_constructor.dir
+
+build CMakeFiles/class_copy_constructor.dir/C++_core/class/class_copy_constructor.cpp.obj: CXX_COMPILER__class_copy_constructor_Debug D$:/Code/C++/CLion/c++_base_learn/C++_core/class/class_copy_constructor.cpp || cmake_object_order_depends_target_class_copy_constructor
+  DEP_FILE = CMakeFiles\class_copy_constructor.dir\C++_core\class\class_copy_constructor.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\class_copy_constructor.dir
+  OBJECT_FILE_DIR = CMakeFiles\class_copy_constructor.dir\C++_core\class
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target class_copy_constructor
+
+
+#############################################
+# Link the executable class_copy_constructor.exe
+
+build class_copy_constructor.exe: CXX_EXECUTABLE_LINKER__class_copy_constructor_Debug CMakeFiles/class_copy_constructor.dir/C++_core/class/class_copy_constructor.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\class_copy_constructor.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = class_copy_constructor.exe
+  TARGET_IMPLIB = libclass_copy_constructor.dll.a
+  TARGET_PDB = class_copy_constructor.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target class_demo_circle_and_point
 
 
@@ -2398,6 +2431,8 @@ build class_circle: phony class_circle.exe
 
 build class_constructor: phony class_constructor.exe
 
+build class_copy_constructor: phony class_copy_constructor.exe
+
 build class_demo_circle_and_point: phony class_demo_circle_and_point.exe
 
 build class_demo_cube: phony class_demo_cube.exe
@@ -2524,7 +2559,7 @@ build wild_pojnter: phony wild_pojnter.exe
 #############################################
 # Folder: D:/Code/C++/CLion/c++_base_learn/cmake-build-debug
 
-build all: phony circle.exe class_circle.exe class_constructor.exe class_demo_circle_and_point.exe class_demo_cube.exe class_private.exe point.exe struct_or_class.exe student_class.exe default_param.exe func_overload.exe placeholder_in_func.exe quote_func_overload.exe func_memory.exe global_memory.exe new.exe const_quote.exe quote.exe quote_in_func.exe return_quote.exe 3.exe array.exe array_two.exe array_two_demo1.exe bool.exe bubble_sort.exe cin.exe clc_disp.exe five_chess.exe five_pig_max_of_array.exe for.exe for_continue.exe for_in_for.exe func_import_demo1.exe func_swap.exe func_swap_import_headerfile.exe goto.exe knock_at_the_table.exe narcissistic_number.exe operator.exe const_constant_pointer.exe null_pointer.exe pointer_array_func_demo1.exe pointer_demo1.exe pointer_func.exe pointer_in_array.exe sizeof_pointer.exe wild_pojnter.exe re_array.exe sizeof_array.exe string.exe const_in_struct.exe struct_define.exe struct_demo1.exe struct_in_func.exe struct_in_struct.exe struct_pointer.exe switch.exe three_pig_max.exe whiile.exe while_test.exe linear_list.exe sequence_list.exe show_menu.exe main.exe Linear_list.exe linked_list.exe linklist_char.exe linklist_int.exe linklist_struct.exe
+build all: phony circle.exe class_circle.exe class_constructor.exe class_copy_constructor.exe class_demo_circle_and_point.exe class_demo_cube.exe class_private.exe point.exe struct_or_class.exe student_class.exe default_param.exe func_overload.exe placeholder_in_func.exe quote_func_overload.exe func_memory.exe global_memory.exe new.exe const_quote.exe quote.exe quote_in_func.exe return_quote.exe 3.exe array.exe array_two.exe array_two_demo1.exe bool.exe bubble_sort.exe cin.exe clc_disp.exe five_chess.exe five_pig_max_of_array.exe for.exe for_continue.exe for_in_for.exe func_import_demo1.exe func_swap.exe func_swap_import_headerfile.exe goto.exe knock_at_the_table.exe narcissistic_number.exe operator.exe const_constant_pointer.exe null_pointer.exe pointer_array_func_demo1.exe pointer_demo1.exe pointer_func.exe pointer_in_array.exe sizeof_pointer.exe wild_pojnter.exe re_array.exe sizeof_array.exe string.exe const_in_struct.exe struct_define.exe struct_demo1.exe struct_in_func.exe struct_in_struct.exe struct_pointer.exe switch.exe three_pig_max.exe whiile.exe while_test.exe linear_list.exe sequence_list.exe show_menu.exe main.exe Linear_list.exe linked_list.exe linklist_char.exe linklist_int.exe linklist_struct.exe
 
 # =============================================================================
 # Built-in targets
