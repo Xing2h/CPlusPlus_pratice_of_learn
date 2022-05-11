@@ -305,6 +305,72 @@ build class_demo_cube.exe: CXX_EXECUTABLE_LINKER__class_demo_cube_Debug CMakeFil
   TARGET_PDB = class_demo_cube.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target class_in_class
+
+
+#############################################
+# Order-only phony target for class_in_class
+
+build cmake_object_order_depends_target_class_in_class: phony || CMakeFiles/class_in_class.dir
+
+build CMakeFiles/class_in_class.dir/C++_core/class/class_in_class.cpp.obj: CXX_COMPILER__class_in_class_Debug D$:/Code/C++/CLion/c++_base_learn/C++_core/class/class_in_class.cpp || cmake_object_order_depends_target_class_in_class
+  DEP_FILE = CMakeFiles\class_in_class.dir\C++_core\class\class_in_class.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\class_in_class.dir
+  OBJECT_FILE_DIR = CMakeFiles\class_in_class.dir\C++_core\class
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target class_in_class
+
+
+#############################################
+# Link the executable class_in_class.exe
+
+build class_in_class.exe: CXX_EXECUTABLE_LINKER__class_in_class_Debug CMakeFiles/class_in_class.dir/C++_core/class/class_in_class.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\class_in_class.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = class_in_class.exe
+  TARGET_IMPLIB = libclass_in_class.dll.a
+  TARGET_PDB = class_in_class.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target class_initList
+
+
+#############################################
+# Order-only phony target for class_initList
+
+build cmake_object_order_depends_target_class_initList: phony || CMakeFiles/class_initList.dir
+
+build CMakeFiles/class_initList.dir/C++_core/class/class_initList.cpp.obj: CXX_COMPILER__class_initList_Debug D$:/Code/C++/CLion/c++_base_learn/C++_core/class/class_initList.cpp || cmake_object_order_depends_target_class_initList
+  DEP_FILE = CMakeFiles\class_initList.dir\C++_core\class\class_initList.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\class_initList.dir
+  OBJECT_FILE_DIR = CMakeFiles\class_initList.dir\C++_core\class
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target class_initList
+
+
+#############################################
+# Link the executable class_initList.exe
+
+build class_initList.exe: CXX_EXECUTABLE_LINKER__class_initList_Debug CMakeFiles/class_initList.dir/C++_core/class/class_initList.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\class_initList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = class_initList.exe
+  TARGET_IMPLIB = libclass_initList.dll.a
+  TARGET_PDB = class_initList.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target class_private
 
 
@@ -336,6 +402,72 @@ build class_private.exe: CXX_EXECUTABLE_LINKER__class_private_Debug CMakeFiles/c
   TARGET_FILE = class_private.exe
   TARGET_IMPLIB = libclass_private.dll.a
   TARGET_PDB = class_private.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target class_static
+
+
+#############################################
+# Order-only phony target for class_static
+
+build cmake_object_order_depends_target_class_static: phony || CMakeFiles/class_static.dir
+
+build CMakeFiles/class_static.dir/C++_core/class/class_static.cpp.obj: CXX_COMPILER__class_static_Debug D$:/Code/C++/CLion/c++_base_learn/C++_core/class/class_static.cpp || cmake_object_order_depends_target_class_static
+  DEP_FILE = CMakeFiles\class_static.dir\C++_core\class\class_static.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\class_static.dir
+  OBJECT_FILE_DIR = CMakeFiles\class_static.dir\C++_core\class
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target class_static
+
+
+#############################################
+# Link the executable class_static.exe
+
+build class_static.exe: CXX_EXECUTABLE_LINKER__class_static_Debug CMakeFiles/class_static.dir/C++_core/class/class_static.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\class_static.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = class_static.exe
+  TARGET_IMPLIB = libclass_static.dll.a
+  TARGET_PDB = class_static.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target class_static_func
+
+
+#############################################
+# Order-only phony target for class_static_func
+
+build cmake_object_order_depends_target_class_static_func: phony || CMakeFiles/class_static_func.dir
+
+build CMakeFiles/class_static_func.dir/C++_core/class/class_static_func.cpp.obj: CXX_COMPILER__class_static_func_Debug D$:/Code/C++/CLion/c++_base_learn/C++_core/class/class_static_func.cpp || cmake_object_order_depends_target_class_static_func
+  DEP_FILE = CMakeFiles\class_static_func.dir\C++_core\class\class_static_func.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\class_static_func.dir
+  OBJECT_FILE_DIR = CMakeFiles\class_static_func.dir\C++_core\class
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target class_static_func
+
+
+#############################################
+# Link the executable class_static_func.exe
+
+build class_static_func.exe: CXX_EXECUTABLE_LINKER__class_static_func_Debug CMakeFiles/class_static_func.dir/C++_core/class/class_static_func.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\class_static_func.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = class_static_func.exe
+  TARGET_IMPLIB = libclass_static_func.dll.a
+  TARGET_PDB = class_static_func.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target point
@@ -2507,7 +2639,15 @@ build class_demo_circle_and_point: phony class_demo_circle_and_point.exe
 
 build class_demo_cube: phony class_demo_cube.exe
 
+build class_in_class: phony class_in_class.exe
+
+build class_initList: phony class_initList.exe
+
 build class_private: phony class_private.exe
+
+build class_static: phony class_static.exe
+
+build class_static_func: phony class_static_func.exe
 
 build clc_disp: phony clc_disp.exe
 
@@ -2629,7 +2769,7 @@ build wild_pojnter: phony wild_pojnter.exe
 #############################################
 # Folder: D:/Code/C++/CLion/c++_base_learn/cmake-build-debug
 
-build all: phony circle.exe class_circle.exe class_construction_function_call_rule.exe class_constructor.exe class_copy_constructor.exe class_deepCopy_and_shadowCopy.exe class_demo_circle_and_point.exe class_demo_cube.exe class_private.exe point.exe struct_or_class.exe student_class.exe default_param.exe func_overload.exe placeholder_in_func.exe quote_func_overload.exe func_memory.exe global_memory.exe new.exe const_quote.exe quote.exe quote_in_func.exe return_quote.exe 3.exe array.exe array_two.exe array_two_demo1.exe bool.exe bubble_sort.exe cin.exe clc_disp.exe five_chess.exe five_pig_max_of_array.exe for.exe for_continue.exe for_in_for.exe func_import_demo1.exe func_swap.exe func_swap_import_headerfile.exe goto.exe knock_at_the_table.exe narcissistic_number.exe operator.exe const_constant_pointer.exe null_pointer.exe pointer_array_func_demo1.exe pointer_demo1.exe pointer_func.exe pointer_in_array.exe sizeof_pointer.exe wild_pojnter.exe re_array.exe sizeof_array.exe string.exe const_in_struct.exe struct_define.exe struct_demo1.exe struct_in_func.exe struct_in_struct.exe struct_pointer.exe switch.exe three_pig_max.exe whiile.exe while_test.exe linear_list.exe sequence_list.exe show_menu.exe main.exe Linear_list.exe linked_list.exe linklist_char.exe linklist_int.exe linklist_struct.exe
+build all: phony circle.exe class_circle.exe class_construction_function_call_rule.exe class_constructor.exe class_copy_constructor.exe class_deepCopy_and_shadowCopy.exe class_demo_circle_and_point.exe class_demo_cube.exe class_in_class.exe class_initList.exe class_private.exe class_static.exe class_static_func.exe point.exe struct_or_class.exe student_class.exe default_param.exe func_overload.exe placeholder_in_func.exe quote_func_overload.exe func_memory.exe global_memory.exe new.exe const_quote.exe quote.exe quote_in_func.exe return_quote.exe 3.exe array.exe array_two.exe array_two_demo1.exe bool.exe bubble_sort.exe cin.exe clc_disp.exe five_chess.exe five_pig_max_of_array.exe for.exe for_continue.exe for_in_for.exe func_import_demo1.exe func_swap.exe func_swap_import_headerfile.exe goto.exe knock_at_the_table.exe narcissistic_number.exe operator.exe const_constant_pointer.exe null_pointer.exe pointer_array_func_demo1.exe pointer_demo1.exe pointer_func.exe pointer_in_array.exe sizeof_pointer.exe wild_pojnter.exe re_array.exe sizeof_array.exe string.exe const_in_struct.exe struct_define.exe struct_demo1.exe struct_in_func.exe struct_in_struct.exe struct_pointer.exe switch.exe three_pig_max.exe whiile.exe while_test.exe linear_list.exe sequence_list.exe show_menu.exe main.exe Linear_list.exe linked_list.exe linklist_char.exe linklist_int.exe linklist_struct.exe
 
 # =============================================================================
 # Built-in targets
