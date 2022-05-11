@@ -11,6 +11,7 @@ D:/Code/C++/CLion/c++_base_learn/cmake-build-debug/CMakeFiles/class_initList.dir
 D:/Code/C++/CLion/c++_base_learn/cmake-build-debug/CMakeFiles/class_private.dir
 D:/Code/C++/CLion/c++_base_learn/cmake-build-debug/CMakeFiles/class_static.dir
 D:/Code/C++/CLion/c++_base_learn/cmake-build-debug/CMakeFiles/class_static_func.dir
+D:/Code/C++/CLion/c++_base_learn/cmake-build-debug/CMakeFiles/class_var_separate.dir
 D:/Code/C++/CLion/c++_base_learn/cmake-build-debug/CMakeFiles/point.dir
 D:/Code/C++/CLion/c++_base_learn/cmake-build-debug/CMakeFiles/struct_or_class.dir
 D:/Code/C++/CLion/c++_base_learn/cmake-build-debug/CMakeFiles/student_class.dir

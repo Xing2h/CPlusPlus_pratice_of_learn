@@ -11,7 +11,7 @@
 1	958	6703989061254408	CMakeFiles/bool.dir/c++_base/bool.cpp.obj	1da75448f453ef04
 11	656	6703989705849110	bool.exe	c44590ec9b70742b
 1363	1904	6705820534188287	main.exe	353b60274e9dd5aa
-0	474	6739799080798850	build.ninja	a62cb5470cf871c0
+0	474	6739814334488607	build.ninja	a62cb5470cf871c0
 158	2021	6739556366219747	CMakeFiles/placeholder_in_func.dir/C++_core/func/placeholder_in_func.cpp.obj	8a4dcc6fa7776f9b
 1185	1683	6703981573674306	string.exe	29a7ebd1dd05f447
 11	1419	6704003158185741	CMakeFiles/cin.dir/c++_base/cin.cpp.obj	79c32ee212f2e522
@@ -63,6 +63,7 @@
 3	412	6707670124213810	CMakeFiles/array.dir/c++_base/array.cpp.obj	2c4bd562d9547053
 407	626	6707658028953754	goto.exe	9800517ad9271b66
 413	631	6707670126353708	array.exe	98225a6ce036c5bf
+1	773	6739802867471304	CMakeFiles/class_static_func.dir/C++_core/class/class_static_func.cpp.obj	602a50fdd7f0d8cb
 5	423	6711282196862940	CMakeFiles/func_import_demo1.dir/c++_base/func_import_demo1.cpp.obj	5f43f068f50952e5
 414	634	6707675182883032	sizeof_array.exe	e4bf70ee368e4704
 4	414	6707677998289313	CMakeFiles/five_pig_max_of_array.dir/c++_base/five_pig_max_of_array.cpp.obj	c583471897684aa9
@@ -134,6 +135,7 @@
 22	838	6735242295825316	CMakeFiles/quote.dir/C++_core/const_quote.cpp.obj	7c5bfbba492ba947
 5	515	6735243632640907	CMakeFiles/const_quote.dir/C++_core/const_quote.cpp.obj	f5550d520b71087
 4	482	6735253392558272	CMakeFiles/default_param.dir/C++_core/default_param.cpp.obj	cbdc1a3cc29ec2b2
+775	1163	6739802871281257	class_static_func.exe	1fd41d6a71059a96
 1934	2701	6739556372104973	default_param.exe	2f830ecdd00ebc50
 5	534	6735269174100409	CMakeFiles/placeholder_in_func.dir/C++_core/placeholder_in_func.cpp.obj	33a7f232ebd6c0f6
 2022	2856	6739556373785110	placeholder_in_func.exe	5f790a1d4c1a6458
@@ -167,5 +169,17 @@
 559	804	6739783861057723	class_in_class.exe	1a5dce1789c5d03
 4	428	6739795677109896	CMakeFiles/class_static.dir/C++_core/class/class_static.cpp.obj	68a1979fd1eadd2f
 429	665	6739795679427333	class_static.exe	1a55c26a35be8c14
-1	773	6739802867471304	CMakeFiles/class_static_func.dir/C++_core/class/class_static_func.cpp.obj	602a50fdd7f0d8cb
-775	1163	6739802871281257	class_static_func.exe	1fd41d6a71059a96
+1	705	6739814787223526	CMakeFiles/class_var_separate.dir/C++_core/class/class_var_separate.cpp.obj	6093e6303e85fb13
+707	955	6739814789674141	class_var_separate.exe	3103bb5782397c4e
+4	476	6739816793600612	CMakeFiles/class_var_separate.dir/C++_core/class/class_var_separate.cpp.obj	6093e6303e85fb13
+477	763	6739816796420957	class_var_separate.exe	3103bb5782397c4e
+7	556	6739817116660037	CMakeFiles/class_var_separate.dir/C++_core/class/class_var_separate.cpp.obj	6093e6303e85fb13
+557	852	6739817119590024	class_var_separate.exe	3103bb5782397c4e
+4	432	6739817375501326	CMakeFiles/class_var_separate.dir/C++_core/class/class_var_separate.cpp.obj	6093e6303e85fb13
+434	665	6739817377760787	class_var_separate.exe	3103bb5782397c4e
+4	462	6739818430407382	CMakeFiles/class_var_separate.dir/C++_core/class/class_var_separate.cpp.obj	6093e6303e85fb13
+464	729	6739818433007383	class_var_separate.exe	3103bb5782397c4e
+4	476	6739819406989250	CMakeFiles/class_var_separate.dir/C++_core/class/class_var_separate.cpp.obj	6093e6303e85fb13
+478	736	6739819409509215	class_var_separate.exe	3103bb5782397c4e
+8	627	6739819936264664	CMakeFiles/class_var_separate.dir/C++_core/class/class_var_separate.cpp.obj	6093e6303e85fb13
+629	946	6739819939404915	class_var_separate.exe	3103bb5782397c4e

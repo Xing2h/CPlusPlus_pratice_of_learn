@@ -12,6 +12,7 @@
     -- src/class_private.cpp will be compiled to bin/class_private
     -- src/class_static.cpp will be compiled to bin/class_static
     -- src/class_static_func.cpp will be compiled to bin/class_static_func
+    -- src/class_var_separate.cpp will be compiled to bin/class_var_separate
     -- src/point.cpp will be compiled to bin/point
     -- src/struct_or_class.cpp will be compiled to bin/struct_or_class
     -- src/student_class.cpp will be compiled to bin/student_class
