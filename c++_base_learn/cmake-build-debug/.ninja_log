@@ -11,7 +11,7 @@
 1	958	6703989061254408	CMakeFiles/bool.dir/c++_base/bool.cpp.obj	1da75448f453ef04
 11	656	6703989705849110	bool.exe	c44590ec9b70742b
 1363	1904	6705820534188287	main.exe	353b60274e9dd5aa
-0	474	6739671133803464	build.ninja	a62cb5470cf871c0
+0	474	6739730962387962	build.ninja	a62cb5470cf871c0
 158	2021	6739556366219747	CMakeFiles/placeholder_in_func.dir/C++_core/func/placeholder_in_func.cpp.obj	8a4dcc6fa7776f9b
 1185	1683	6703981573674306	string.exe	29a7ebd1dd05f447
 11	1419	6704003158185741	CMakeFiles/cin.dir/c++_base/cin.cpp.obj	79c32ee212f2e522
@@ -112,6 +112,7 @@
 511	738	6720819832467914	sequence_list.exe	40c2a31941874b8b
 1	679	6724843666200164	CMakeFiles/linear_list.dir/dataType/linear_list.cpp.obj	21d1be2e3f5c8854
 13	132	6724845958228807	CMakeFiles/Linear_list.dir/wangdao/Linear_list/linear.cpp.obj	a3a8fb22144d8822
+4	441	6739686690427643	CMakeFiles/class_copy_constructor.dir/C++_core/class/class_copy_constructor.cpp.obj	508ac3b56d741831
 4	476	6724946918976108	CMakeFiles/Linear_list.dir/wangdao/Linear_list/Linear_list.cpp.obj	cc1c7ca8ef7b93e9
 1902	2628	6725646227147003	linklist.exe	a9be9b46d8ae6cdb
 7	1585	6725655548362498	CMakeFiles/linklist_char.dir/wangdao/linklist_char.cpp.obj	bc5301d4bae31f4
@@ -155,13 +156,8 @@
 2527	3282	6739556379074909	CMakeFiles/new.dir/C++_core/memory/new.cpp.obj	9b822024f61e4065
 5	460	6739615842686856	CMakeFiles/class_constructor.dir/C++_core/class/class_constructor.cpp.obj	71a561d58aa1ed52
 461	713	6739615845039497	class_constructor.exe	b29c9d7ec6f22275
-0	554	6739675029569915	CMakeFiles/class_copy_constructor.dir/C++_core/class/class_copy_constructor.cpp.obj	508ac3b56d741831
-556	831	6739675032269874	class_copy_constructor.exe	f34a9dad82af8231
-4	452	6739682158063333	CMakeFiles/class_copy_constructor.dir/C++_core/class/class_copy_constructor.cpp.obj	508ac3b56d741831
-454	693	6739682160433167	class_copy_constructor.exe	f34a9dad82af8231
-4	443	6739686395018653	CMakeFiles/class_copy_constructor.dir/C++_core/class/class_copy_constructor.cpp.obj	508ac3b56d741831
-445	678	6739686397308691	class_copy_constructor.exe	f34a9dad82af8231
-3	437	6739686474085613	CMakeFiles/class_copy_constructor.dir/C++_core/class/class_copy_constructor.cpp.obj	508ac3b56d741831
-438	670	6739686476358625	class_copy_constructor.exe	f34a9dad82af8231
-4	441	6739686690427643	CMakeFiles/class_copy_constructor.dir/C++_core/class/class_copy_constructor.cpp.obj	508ac3b56d741831
 443	670	6739686692667300	class_copy_constructor.exe	f34a9dad82af8231
+1	586	6739734648291661	CMakeFiles/class_construction_function_call_rule.dir/C++_core/class/class_construction_function_call_rule.cpp.obj	dca4f3e5b25ec5aa
+588	876	6739734651141642	class_construction_function_call_rule.exe	ded55afe769d3870
+5	498	6739735612384411	CMakeFiles/class_construction_function_call_rule.dir/C++_core/class/class_construction_function_call_rule.cpp.obj	dca4f3e5b25ec5aa
+500	748	6739735614834684	class_construction_function_call_rule.exe	ded55afe769d3870

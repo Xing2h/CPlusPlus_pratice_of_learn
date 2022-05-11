@@ -1,6 +1,7 @@
 "D:\IDE\Clion\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/IDE/Clion/CLion 2021.3.4/bin/ninja/win/ninja.exe" -DCMAKE_C_COMPILER=D:/IDE/Msys2_64/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/IDE/Msys2_64/mingw64/bin/g++.exe -G Ninja -S D:\Code\C++\CLion\c++_base_learn -B D:\Code\C++\CLion\c++_base_learn\cmake-build-debug
     -- src/circle.cpp will be compiled to bin/circle
     -- src/class_circle.cpp will be compiled to bin/class_circle
+    -- src/class_construction_function_call_rule.cpp will be compiled to bin/class_construction_function_call_rule
     -- src/class_constructor.cpp will be compiled to bin/class_constructor
     -- src/class_copy_constructor.cpp will be compiled to bin/class_copy_constructor
     -- src/class_demo_circle_and_point.cpp will be compiled to bin/class_demo_circle_and_point
